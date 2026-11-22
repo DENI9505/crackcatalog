@@ -8,7 +8,3 @@ services:
     envVars:
       - key: PORT
         value: 8081
-    disk:
-      name: catalog-data
-      mountPath: /app/catalog-data
-      sizeGB: 1
